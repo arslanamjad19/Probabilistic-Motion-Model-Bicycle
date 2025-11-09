@@ -71,8 +71,6 @@ Simulated the propagation of uncertainty over a sequence of motions using the sa
 | $t=4\text{s}$ to $5\text{s}$ | $2\text{s}$ | 2     | Turn right with $\mathbf{u}_t = [31 \text{ cm/sec}, -20^\circ]^T$ |
 | $t=6\text{s}$ to $8\text{s}$ | $3\text{s}$ | 3     | Drive straight again with $\mathbf{u}_t = [65 \text{ cm/sec}, 0^\circ]^T$ |
 
-*(Note: The total steps for the time intervals sum to $3+2+3=8$ steps. Assuming the simulation starts at $t=0$ and steps occur at $t=1, 2, \dots, 8$. The prompt suggests 3 steps from $t=1\text{s}$ to $3\text{s}$ and 3 steps from $t=6\text{s}$ to $8\text{s}$, which is slightly ambiguous but will be interpreted as a total of 8 timesteps with $\Delta t = 1\text{s}$.)*
-
 ### Visualization
 
 Created a **single plot** that visualizes the entire simulation motion.
